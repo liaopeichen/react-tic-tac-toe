@@ -4,13 +4,13 @@ export default function Player({ initialName, symbol, isActive }) {
   const [playerName, setPlayerName] = useState(initialName);
   const [isEditing, setIsEditing] = useState(false);
 
-  const handleEditClick = function () {
+  function handleEditClick() {
     setIsEditing((editing) => !editing);
-  };
+  }
 
-  const handleChange = function (event) {
+  function handleChange(event) {
     setPlayerName(event.target.value);
-  };
+  }
 
   return (
     <li className={isActive ? "active" : undefined}>
