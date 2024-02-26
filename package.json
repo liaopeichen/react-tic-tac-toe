@@ -1,8 +1,8 @@
 {
+  "homepage": "https://liaopeichen.github.io/react-tic-tac-toe/",
   "name": "react-essentials-deep-dive-adv",
   "private": true,
   "version": "0.0.0",
-  "homepage": "http://liaopeichen.tic-tac-toe.io/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
