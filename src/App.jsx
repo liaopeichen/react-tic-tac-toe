@@ -100,6 +100,12 @@ function App() {
   return (
     <main>
       <div id="game-container">
+        <a href="https://react-project-mini-games-collection.onrender.com/">
+          <button id="home-button">
+            <i className="fa-solid fa-house fa-sm home-icon"></i>
+            <span className="home-text"> home</span>
+          </button>
+        </a>
         <ol id="players" className="highlight-player">
           <Player
             initialName={PLAYERS.X}

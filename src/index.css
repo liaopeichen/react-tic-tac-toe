@@ -57,6 +57,39 @@ h1 {
   position: relative;
 }
 
+#home-button {
+  position: absolute;
+  top: -1.8rem;
+  right: 0;
+  border-radius: 5px 5px 0 5px;
+  padding: 0.5rem;
+  padding-bottom: 0.29rem;
+  border: 1px solid #3f3b00;
+  background-color: #3f3b00;
+  font-family: "Caprasimo", cursive;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #c3ba78;
+  width: fit-content;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+#home-button:hover {
+  transition-delay: 0.1s;
+  color: #f6e35a;
+}
+
+#home-button:active {
+  transition-delay: 0.1s;
+  color: #f8ca31;
+}
+
+#home-button:focus {
+  color: #f8ca31;
+}
+
 #players {
   list-style: none;
   padding: 0;
