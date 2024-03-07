@@ -58,14 +58,13 @@ h1 {
 }
 
 #home-button {
-  z-index: -1;
   position: absolute;
-  top: -2rem;
+  top: -1.8rem;
   right: 0;
   border-radius: 5px 5px 0 5px;
   padding: 0.5rem;
-  border: 1px solid #3f3b00;
-  background: linear-gradient(#383624, #3f3b00);
+  border: none;
+  background-color: #383622;
   font-family: "Caprasimo", cursive;
   font-size: 1rem;
   text-transform: uppercase;
